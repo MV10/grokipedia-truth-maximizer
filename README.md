@@ -1,4 +1,4 @@
-# Grokipedia Truth Maximizer
+# Grokipedia Truth Maximizer <img src="https://github.com/MV10/grokipedia-truth-maximizer/blob/master/extension/icons/icon32.png" height="32px"/>
 
 A Chromium browser extension which finds matching [Grokipedia](https://grokipedia.com) pages when you're viewing Wikipedia.
 
