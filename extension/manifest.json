@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Grokipedia Truth Maximizer",
+  "version": "1.0.0",
+  "description": "Shows a banner when the current Wikipedia article exists on Grokipedia, with optional auto-navigation.",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://en.wikipedia.org/*",
+    "https://grokipedia.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://en.wikipedia.org/wiki/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16":  "icons/icon16.png",
+      "32":  "icons/icon32.png",
+      "48":  "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Grokipedia Truth Maximizer"
+  },
+  "icons": {
+    "16":  "icons/icon16.png",
+    "32":  "icons/icon32.png",
+    "48":  "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/icon48.png"],
+      "matches": ["https://en.wikipedia.org/*"]
+    }
+  ]
+}
