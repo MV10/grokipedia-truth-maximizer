@@ -5,8 +5,7 @@
   "description": "Shows a banner when the current Wikipedia article exists on Grokipedia, with optional auto-navigation.",
   "permissions": [
     "storage",
-    "contextMenus",
-    "tabs"
+    "contextMenus"
   ],
   "host_permissions": [
     "https://en.wikipedia.org/*",
