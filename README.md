@@ -1,6 +1,6 @@
 # Grokipedia Truth Maximizer <img src="https://github.com/MV10/grokipedia-truth-maximizer/blob/master/extension/icons/icon32.png" height="32px"/>
 
-> As of Feb-21-2026 the extension has been submitted for review. If you want to sideload it, clone the repository, go to your browser's Extensions page, activate "Developer mode", click "Load unpacked" and choose the `extensions` directory in your local copy of the repository.
+> Install from the official Google [Web Store](https://chromewebstore.google.com/detail/grokipedia-truth-maximize/ilfonclhbnfebpbigonabifijkmlicmf)
 
 A very lightweight Chromium browser extension which finds matching [Grokipedia](https://grokipedia.com) pages when you're viewing Wikipedia.
 
